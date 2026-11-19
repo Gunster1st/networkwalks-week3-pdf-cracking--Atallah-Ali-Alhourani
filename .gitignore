@@ -1,0 +1,4 @@
+*.pyc
+__pycache__/
+# original lab PDFs are not redistributed here
+*.orig.pdf

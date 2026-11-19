@@ -1,0 +1,5 @@
+file,module,encryption,password,flag
+My Locked PDF1.pdf,W3-PM1 (JTR),AES/RC4 128-bit R4,good-luck,nw{cybersecurity_flag_captured_2608}
+My Locked PDF1 (NW Tools).pdf,W3-PM2 (NW Tools),AES/RC4 128-bit R4,password1,nw{networkwalks_flag1_jtr_270521_1}
+My Locked PDF2.pdf,Bonus,AES/RC4 128-bit R4,password1,nw{networkwalks_persistence_jtr_270521}
+My Locked PDF3.pdf,Bonus,AES/RC4 128-bit R4,1qaz2wsx,nw{networkwalks_flag_260821_1}
