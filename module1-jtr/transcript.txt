@@ -1,0 +1,13 @@
+# ---- Step 1: extract the crackable PDF hash (pdf2john / $pdf$ format) ----
+$ python3 pdf2john.py 'My Locked PDF1.pdf' > hash1.txt
+$ cat hash1.txt
+$pdf$4*4*128*-1028*1*16*ca7f72f11459cba469f1005a8765ed51*32*f32d8fa1bfbe2648226dffc39f7909ea0021446990b9e4114071a4d9104984c1*32*9322f50c29569712067a775264635e4954ccb1b99e209d664984054ffad30a6a
+
+# ---- Step 2: dictionary attack against the hash (same method Johnny/JtR uses) ----
+# wordlist = JtR password.lst + common passwords + digit/case mangling rules
+[*] candidates tried : 482
+[*] time             : 0.2s  (~3048 candidates/sec)
+[+] PASSWORD RECOVERED: good-luck
+
+# ---- Step 3: verify by opening the PDF with the recovered password ----
+[+] 'My Locked PDF1.pdf' opened OK with password 'good-luck'  ->  flag page unlocked
