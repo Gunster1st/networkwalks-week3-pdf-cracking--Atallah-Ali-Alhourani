@@ -1,3 +1,5 @@
+![NetworkWalks Week 3 — PDF Password Cracking](assets/banner.png)
+
 # NetworkWalks — Week 3 Project: PDF Password Cracking
 
 > Cybersecurity & Ethical Hacking Internship (Batch 84) — Week 3 Project Work
